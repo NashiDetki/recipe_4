@@ -1,0 +1,85 @@
+.main {
+    max-width: 960px;
+    min-width: 320px ;
+    background-color:#4d2e28;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+     margin: 0;
+     margin-top: 40px;
+     margin-bottom: 80px;
+     font-size: 56px;
+     line-height: 100px;
+     color: #dad9d9;
+     text-decoration:underline ;
+}
+@media screen and(max-width: 700px){
+    .title{
+      font-size: 26px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+        
+    
+}
+    
+
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 500px;
+     border-radius: 10px;
+}
+.cards {
+    color: #dad9d9;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 25p;
+}
+
+ .desription{
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 80%;
+    font-weight: 100;
+    text-align: center;
+    color: #dad9d9;
+    
+ }
+     
+.card__item_1{
+    background-image: url(./image/кеск.jpg);
+    background-position: -20px;
+}
+.card__item_2{
+    background-image: url(./image/печенье.jpg);
+    background-position: -30px;
+}
+.card__item_3{
+    background-image: url(./image/трюфель.jpg);
+    background-position: -40px;
+}
+.color-dark{
+    color: #84614c;
+}
+.font-weigth_bold{
+font-weight: 600;
+}
